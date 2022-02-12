@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    margin: 0;
+    background-color:#df91b5 ;
+}
+
+.contenedor {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-content: center;
+    margin: 0.5em;
+}    
+.consola {
+    background-color: rgb(46 171 255);
+    padding: 0.5em;
+    border-radius: 28px;
+    box-shadow: 10px 5px 0px 3px rgb(88 86 92 / 42%);
+}
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 24px;
+    font-size: 1em;
+    border: none;
+    background-color: #000000;
+    box-shadow: 5px 5px 10px -3px #746349, -5px -5px 15px 3px #dadda9;
+}
+button:active{
+    background-color: rgb(231, 235, 15);
+}
+.flechas1 {
+    grid-column: 2;
+    grid-row: 4;
+}
+.flechas2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+.flechas3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.flechas4 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.letras1 {
+    grid-column: 6;
+    grid-row: 2;
+}
+.letras2 {
+    grid-column: 7;
+    grid-row: 3;
+}
+.letras3 {
+    grid-column: 6;
+    grid-row: 4;
+}
+.letras4 {
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.pantalla {
+    height: 240px;
+    width: 315px;
+    border-radius: 1em;
+    background-color: rgb(68 63 63);
+    }
+.mandos {
+    display: grid;
+    grid-template-columns: repeat(7,45px);
+    grid-template-rows: repeat(4,45px);
+    }
+.imagen {
+    padding: 1em;
+    height: 210px;
+    width: 285px;
+    border-radius: 1.5em;
+}
+.botonextras {
+    display: grid;
+    grid-template-columns: repeat(9,35px);
+    grid-template-rows: repeat(4,23px);
+}
+.botonex1{
+    grid-column: 6;
+    grid-row: 3;
+}
+.botonex2 {
+    grid-column: 4;
+    grid-row: 3;
+}
+.imagen2 {
+    height: 20px;
+}
+.abajo {
+    height: 20px;
+}
+.derecha {
+    height: 20px;
+}
+.arriba {
+    height: 20px;
+}
+.izquierda {
+    height: 20px;
+}
+.bocina1 {
+    grid-column: 8;
+    grid-row: 3;
+    height: 70px;
+}
+.logo {
+    grid-column: 4;
+    grid-row: 1;
+    height: 139px;
+    margin: -2.5em;
+}
